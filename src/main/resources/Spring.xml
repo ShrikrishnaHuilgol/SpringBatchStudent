@@ -1,0 +1,24 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="Batch" class="com.bean.Batch">
+        <constructor-arg name="courseName" value="ISE"/>
+        <constructor-arg name="batchCode" value="2SD18IS"/>
+        <constructor-arg name="studentList">
+            <list>
+                <bean id="student1" class="com.bean.Student">
+                    <constructor-arg name="studentName" value="Krishna"/>
+                    <constructor-arg name="qualification" value="BE"/>
+                    <constructor-arg name="aggregatePercentage" value="8.9"/>
+                </bean>
+                <bean id="student2" class="com.bean.Student">
+                    <constructor-arg name="studentName" value="Nidhi"/>
+                    <constructor-arg name="qualification" value="BE"/>
+                    <constructor-arg name="aggregatePercentage" value="9.1"/>
+                </bean>
+            </list>
+        </constructor-arg>
+    </bean>
+
+</beans>
