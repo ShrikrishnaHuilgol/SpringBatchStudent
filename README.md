@@ -1,2 +1,2 @@
 # SpringBatchStudent
-I have implemented this example using Constructor-arg and also used th concept of inner bean.
+I have implemented this example using Constructor-arg and also used the concept of inner bean.
